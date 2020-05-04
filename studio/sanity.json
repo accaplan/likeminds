@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "Likeminds"
-  },
   "api": {
-    "projectId": "5u65bmd0",
+    "projectId": "8nnneie9",
     "dataset": "production"
+  },
+  "project": {
+    "name": "idle Hours"
   },
   "plugins": [
     "@sanity/base",
