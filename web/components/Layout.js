@@ -9,7 +9,7 @@ import '../public/style.scss'
 const Layout = (props) => (
   <div className='js-layout'>
     <Head>
-      <title>Likeminds</title>
+      <title>IDLE HOURS</title>
       <meta name='viewport' content='initial-scale=1, viewport-fit=cover' key='viewport' />
       <link rel='shortcut icon' href='/favicon.ico' />
     </Head>
