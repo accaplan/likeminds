@@ -17,5 +17,9 @@
     "@sanity/cli": "^0.144.0",
     "eslint-plugin-import": "^2.19.1",
     "lerna": "^3.9.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
