@@ -99,9 +99,12 @@ svg.no-text .hide-text {
 .header__button a {
       background: transparent;
       border: 1px solid;
+      display: -webkit-box;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      -webkit-box-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+              justify-content: center;
       font-size: 22px;
       min-height: 55px;
       padding: 16px 20px;
@@ -120,6 +123,7 @@ svg.no-text .hide-text {
 
 .header__socials {
     align-self: flex-start;
+    display: -webkit-box;
     display: flex;
     grid-area: socials;
     list-style: none;
@@ -129,7 +133,9 @@ svg.no-text .hide-text {
 
 @media (min-width: 768px) {
       .header__socials {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
         margin: 0; } }
 
 .header__socials a {
@@ -181,11 +187,7 @@ svg.no-text .hide-text {
       margin: 10px 0 0;
       width: 100%; }
 
-.header__signup input ::-moz-placeholder,
-    .header__signup input :-moz-placeholder,
-    .header__signup input ::-moz-placeholder,
-    .header__signup input :-ms-input-placeholder,
-    .header__signup input ::-webkit-input-placeholder {
+.header__signup input ::-moz-placeholder {
       color: #afafaf;
       color: var(--grey);
       opacity: 1; }
@@ -200,6 +202,7 @@ svg.no-text .hide-text {
       opacity: 1; }
 
 .animate {
+  display: -webkit-inline-box;
   display: inline-flex;
   overflow: hidden;
   position: relative; }
@@ -372,6 +375,7 @@ svg.no-text .hide-text {
   -ms-overflow-style: none; }
 
 .event__images {
+  display: -webkit-box;
   display: flex;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
@@ -379,6 +383,7 @@ svg.no-text .hide-text {
   margin: 0 0 200px;
   overflow: hidden;
   padding: 0 0 5px;
+  -webkit-transition: all 400ms;
   transition: all 400ms;
   -ms-overflow-style: none; }
 
@@ -424,6 +429,7 @@ svg.no-text .hide-text {
        object-position: top center;
     scroll-snap-align: center;
     scroll-snap-stop: always;
+    -webkit-transition: padding 400ms;
     transition: padding 400ms; }
 
 .is-large-gallery .event__images img {
