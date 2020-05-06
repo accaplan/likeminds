@@ -3320,9 +3320,10 @@ module.exports = function generateHelpUrl(slug) {
     if (isSanityClient(client)) {
       // Inherit config from client
       var ref = client.clientConfig;
-      var apiHost = ref.apiHost;
+      var apiUrl = ref.apiHost;
       var projectId = ref.projectId;
       var dataset = ref.dataset;
+      var apiHost = apiUrl || 'https://api.sanity.io';
       return new ImageUrlBuilder(null, {
         baseUrl: apiHost.replace(/^https:\/\/api\./, 'https://cdn.'),
         projectId: projectId,
