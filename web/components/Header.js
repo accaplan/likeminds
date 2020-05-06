@@ -29,10 +29,10 @@ const Header = () => {
       </div>
 
       <div className='header__info'>
-        <p><Logo classes='no-text' /> is a well-curated weekend of speakers, music, workshops, food, and drink. Since 2016, our goal has been to bring together people of all backgrounds to explore a single theme through each other's work.</p>
-        <p><Logo classes='no-text' /> returns <span className='animate'>September 25-27 (2020).</span> <button onClick={showSignUp} type='button'>Sign Up</button> for announcements.</p>
+        <p><Logo classes='no-text' /> is a company built around the principles of freetime. The art of doing nothing and the delight of boredom.</p>
+        <p><Logo classes='no-text' /> calls for <span className='animate'>Group Connectivity.</span> <button onClick={showSignUp} type='button'>Sign Up</button> for announcements.</p>
         <div className={`header__signup js-signup ${modifier}`}>
-          <label htmlFor='headerSignup'>STAY TUNED FOR SPEAKER and MUSIC ANNOUNCEMENTS AS WELL SPECIFIC INFORMATION LEADING UP TO LIKEMINDS.</label>
+          <label htmlFor='headerSignup'>STAY TUNED</label>
           <Mailchimp
             action='https://camp.us19.list-manage.com/subscribe/post?u=358143694606dde15fb491f0b&amp;id=c06b53b3db'
             fields={[
@@ -58,14 +58,12 @@ const Header = () => {
       </div>
 
       <div className='header__button'>
-        <a href='https://www.eventbrite.com/e/likeminds-west-tickets-85393449105?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing' target='_blank'>Tickets on sale now</a>
+        <a href='https://idle-ecomm.herokuapp.com' target='_blank'>Take me to the shop.</a>
       </div>
 
       <nav className='header__socials'>
-        <a href='https://instagram.com/likeminds.camp' target='_blank'>instagram</a>
-        <a href='https://twitter.com/likeminds_camp' target='_blank'>twitter</a>
-        <a href='mailto:info@likeminds.camp'>email</a>
-        <a href='#pastLikemind'>past likeminds</a>
+        <a href='https://instagram.com/idlehoursco' target='_blank'>instagram</a>
+        <a href='mailto:idlehoursco@gmail.com'>email</a>
       </nav>
     </div >
   )
