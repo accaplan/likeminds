@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Logo = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.98 9.16">
+  <svg className={props.classes} xmlns='http://www.w3.org/2000/svg' id='Layer_2' width='300' height='35.9' data-name='Layer 2' viewBox='0 0 95 7'>
         <g data-name="Layer 2">
           <g data-name="Layer 1">
             <path

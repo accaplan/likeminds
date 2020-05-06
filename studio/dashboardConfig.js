@@ -36,7 +36,7 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'https://github.com/michaelburtonray/sanity-nextjs-landing-pages',
+            value: 'https://github.com/office-romance/likeminds',
             category: 'Code'
           },
           {title: 'Frontend', value: 'https://sanity-nextjs-landing-pages-web-tu1uvefd.netlify.com', category: 'apps'}
