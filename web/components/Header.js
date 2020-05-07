@@ -58,7 +58,7 @@ const Header = () => {
       </div>
 
       <div className='header__button'>
-        <a href='https://idle-ecomm.herokuapp.com' target='_blank'>Take me to the shop.</a>
+        <a href='https://shop.idlehours.co' target='_blank'>Take me to the shop.</a>
       </div>
 
       <nav className='header__socials'>
