@@ -18,16 +18,16 @@ export default {
                 'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
               sites: [
                 {
-                  buildHookId: '5defd67c4da709376ce01037',
+                  buildHookId: '5f324d3850e44fc15b884f49',
                   title: 'Sanity Studio',
                   name: 'sanity-nextjs-landing-pages-studio-pmunnpur',
-                  apiId: '1e6a6de2-25e6-4de4-8df7-e50ceeb524c5'
+                  apiId: '107d7279-4a80-4834-9bee-e29e21508e95'
                 },
                 {
-                  buildHookId: '5defd67c2bdb787e5d5e4f37',
-                  title: 'Landing pages Website',
-                  name: 'sanity-nextjs-landing-pages-web-tu1uvefd',
-                  apiId: 'a757fc5b-8c50-4dfa-8d91-792784175591'
+                  buildHookId: '5f324d3850e44fc15b884f49',
+                  title: 'Selling free time',
+                  name: 'Idle Hours Co.',
+                  apiId: '107d7279-4a80-4834-9bee-e29e21508e95'
                 }
               ]
             }
@@ -39,7 +39,7 @@ export default {
             value: 'https://github.com/office-romance/likeminds',
             category: 'Code'
           },
-          {title: 'Frontend', value: 'https://sanity-nextjs-landing-pages-web-tu1uvefd.netlify.com', category: 'apps'}
+          {title: 'Frontend', value: 'https://idlehours.co', category: 'apps'}
         ]
       }
     },
