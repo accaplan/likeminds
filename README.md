@@ -1,4 +1,4 @@
-# Next.js landing pages
+# Single page for all things Dawdlism
 
 _SEO friendly page builder in React.js. Heroes, sign-up forms and calls to action._
 
