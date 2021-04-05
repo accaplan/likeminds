@@ -46,7 +46,7 @@ const Header = () => {
             messages={
               {
                 sending: 'Sending...',
-                success: 'Joel Fear thanks you!',
+                success: 'We thank you!',
                 error: 'An unexpected internal error has occurred.',
                 empty: 'Please give us your e-mail address.',
                 duplicate: 'Too many subscribe attempts for this email address',
@@ -58,12 +58,12 @@ const Header = () => {
       </div>
 
       <div className='header__button'>
-        <a href='https://shop.idlehours.co' target='_blank'>Take me to the shop.</a>
+        <a href='https://idlehours.substack.com' target='_blank'>Archive</a>
       </div>
 
       <nav className='header__socials'>
         <a href='https://instagram.com/idlehoursco' target='_blank'>instagram</a>
-        <a href='mailto:idlehoursco@gmail.com'>email</a>
+        <a href='mailto:info@idlehours.co'>email</a>
       </nav>
     </div >
   )

@@ -499,7 +499,7 @@ var Header = function Header() {
     }],
     messages: {
       sending: 'Sending...',
-      success: 'Joel Fear thanks you!',
+      success: 'We thank you!',
       error: 'An unexpected internal error has occurred.',
       empty: 'Please give us your e-mail address.',
       duplicate: 'Too many subscribe attempts for this email address',
@@ -520,7 +520,7 @@ var Header = function Header() {
       columnNumber: 7
     }
   }, __jsx("a", {
-    href: "https://idle-ecomm.herokuapp.com",
+    href: "https://idlehours.substack.com",
     target: "_blank",
     __self: _this,
     __source: {
@@ -528,7 +528,7 @@ var Header = function Header() {
       lineNumber: 61,
       columnNumber: 9
     }
-  }, "Take me to the shop.")), __jsx("nav", {
+  }, "Archive")), __jsx("nav", {
     className: "header__socials",
     __self: _this,
     __source: {
@@ -546,7 +546,7 @@ var Header = function Header() {
       columnNumber: 9
     }
   }, "instagram"), __jsx("a", {
-    href: "mailto:idlehoursco@gmail.com",
+    href: "mailto:info@idlehours.co",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1324,10 +1324,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
 
-var _require = __webpack_require__(/*! @sanity/observable/operators/map */ "./node_modules/@sanity/observable/operators/map.js"),
+var _require = __webpack_require__(/*! @sanity/observable/operators/map */ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/map.js"),
     map = _require.map;
 
-var _require2 = __webpack_require__(/*! @sanity/observable/operators/filter */ "./node_modules/@sanity/observable/operators/filter.js"),
+var _require2 = __webpack_require__(/*! @sanity/observable/operators/filter */ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/filter.js"),
     filter = _require2.filter;
 
 var queryString = __webpack_require__(/*! ../http/queryString */ "./node_modules/@sanity/client/lib/http/queryString.js");
@@ -1503,7 +1503,7 @@ module.exports = AuthClient;
 "use strict";
 
 
-var generateHelpUrl = __webpack_require__(/*! @sanity/generate-help-url */ "./node_modules/@sanity/generate-help-url/index.js");
+var generateHelpUrl = __webpack_require__(/*! @sanity/generate-help-url */ "./node_modules/@sanity/client/node_modules/@sanity/generate-help-url/index.js");
 
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
 
@@ -1613,10 +1613,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
 
-var _require = __webpack_require__(/*! @sanity/observable/operators/filter */ "./node_modules/@sanity/observable/operators/filter.js"),
+var _require = __webpack_require__(/*! @sanity/observable/operators/filter */ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/filter.js"),
     filter = _require.filter;
 
-var _require2 = __webpack_require__(/*! @sanity/observable/operators/map */ "./node_modules/@sanity/observable/operators/map.js"),
+var _require2 = __webpack_require__(/*! @sanity/observable/operators/map */ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/map.js"),
     map = _require2.map;
 
 var validators = __webpack_require__(/*! ../validators */ "./node_modules/@sanity/client/lib/validators.js");
@@ -1863,9 +1863,9 @@ module.exports = function (_ref) {
 
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
 
-var Observable = __webpack_require__(/*! @sanity/observable/minimal */ "./node_modules/@sanity/observable/minimal.js");
+var Observable = __webpack_require__(/*! @sanity/observable/minimal */ "./node_modules/@sanity/client/node_modules/@sanity/observable/minimal.js");
 
-var polyfilledEventSource = __webpack_require__(/*! @sanity/eventsource */ "./node_modules/@sanity/eventsource/browser.js");
+var polyfilledEventSource = __webpack_require__(/*! @sanity/eventsource */ "./node_modules/@sanity/client/node_modules/@sanity/eventsource/browser.js");
 
 var pick = __webpack_require__(/*! ../util/pick */ "./node_modules/@sanity/client/lib/util/pick.js");
 
@@ -1873,7 +1873,7 @@ var defaults = __webpack_require__(/*! ../util/defaults */ "./node_modules/@sani
 
 var encodeQueryString = __webpack_require__(/*! ./encodeQueryString */ "./node_modules/@sanity/client/lib/data/encodeQueryString.js");
 
-var generateHelpUrl = __webpack_require__(/*! @sanity/generate-help-url */ "./node_modules/@sanity/generate-help-url/index.js");
+var generateHelpUrl = __webpack_require__(/*! @sanity/generate-help-url */ "./node_modules/@sanity/client/node_modules/@sanity/generate-help-url/index.js");
 
 var once = __webpack_require__(/*! ../util/once */ "./node_modules/@sanity/client/lib/util/once.js");
 
@@ -2489,7 +2489,7 @@ var jsonResponse = __webpack_require__(/*! get-it/lib/middleware/jsonResponse */
 
 var progress = __webpack_require__(/*! get-it/lib/middleware/progress */ "./node_modules/get-it/lib/middleware/progress/index.js");
 
-var Observable = __webpack_require__(/*! @sanity/observable/minimal */ "./node_modules/@sanity/observable/minimal.js");
+var Observable = __webpack_require__(/*! @sanity/observable/minimal */ "./node_modules/@sanity/client/node_modules/@sanity/observable/minimal.js");
 
 var _require = __webpack_require__(/*! ./errors */ "./node_modules/@sanity/client/lib/http/errors.js"),
     ClientError = _require.ClientError,
@@ -2611,10 +2611,10 @@ module.exports = ProjectsClient;
 
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
 
-var _require = __webpack_require__(/*! @sanity/observable/operators/filter */ "./node_modules/@sanity/observable/operators/filter.js"),
+var _require = __webpack_require__(/*! @sanity/observable/operators/filter */ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/filter.js"),
     filter = _require.filter;
 
-var _require2 = __webpack_require__(/*! @sanity/observable/operators/map */ "./node_modules/@sanity/observable/operators/map.js"),
+var _require2 = __webpack_require__(/*! @sanity/observable/operators/map */ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/map.js"),
     map = _require2.map;
 
 var Patch = __webpack_require__(/*! ./data/patch */ "./node_modules/@sanity/client/lib/data/patch.js");
@@ -2928,10 +2928,10 @@ exports.hasDataset = function (config) {
 
 /***/ }),
 
-/***/ "./node_modules/@sanity/eventsource/browser.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/@sanity/eventsource/browser.js ***!
-  \*****************************************************/
+/***/ "./node_modules/@sanity/client/node_modules/@sanity/eventsource/browser.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@sanity/client/node_modules/@sanity/eventsource/browser.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2942,10 +2942,10 @@ module.exports = window.EventSource || evs.EventSource
 
 /***/ }),
 
-/***/ "./node_modules/@sanity/generate-help-url/index.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/@sanity/generate-help-url/index.js ***!
-  \*********************************************************/
+/***/ "./node_modules/@sanity/client/node_modules/@sanity/generate-help-url/index.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@sanity/client/node_modules/@sanity/generate-help-url/index.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2954,6 +2954,121 @@ var baseUrl = 'https://docs.sanity.io/help/'
 module.exports = function generateHelpUrl(slug) {
   return baseUrl + slug
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/@sanity/client/node_modules/@sanity/observable/lib/SanityObservableMinimal.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/@sanity/client/node_modules/@sanity/observable/lib/SanityObservableMinimal.js ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _require = __webpack_require__(/*! rxjs/internal/Observable */ "./node_modules/rxjs/internal/Observable.js"),
+    Observable = _require.Observable;
+
+var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
+
+var _require2 = __webpack_require__(/*! ../operators/map */ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/map.js"),
+    map = _require2.map;
+
+var _require3 = __webpack_require__(/*! ../operators/filter */ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/filter.js"),
+    filter = _require3.filter;
+
+var _require4 = __webpack_require__(/*! ../operators/reduce */ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/reduce.js"),
+    reduce = _require4.reduce;
+/*
+ A minimal rxjs based observable that align as closely as possible with the current es-observable spec,
+ without the static factory methods
+ */
+
+
+function SanityObservableMinimal() {
+  Observable.apply(this, arguments); // eslint-disable-line prefer-rest-params
+}
+
+SanityObservableMinimal.prototype = Object.create(assign(Object.create(null), Observable.prototype));
+Object.defineProperty(SanityObservableMinimal.prototype, 'constructor', {
+  value: SanityObservableMinimal,
+  enumerable: false,
+  writable: true,
+  configurable: true
+});
+
+SanityObservableMinimal.prototype.lift = function lift(operator) {
+  var observable = new SanityObservableMinimal();
+  observable.source = this;
+  observable.operator = operator;
+  return observable;
+};
+
+function createDeprecatedMemberOp(name, op) {
+  var hasWarned = false;
+  return function deprecatedOperator() {
+    if (!hasWarned) {
+      hasWarned = true;
+      console.warn(new Error("Calling observable.".concat(name, "(...) is deprecated. Please use observable.pipe(").concat(name, "(...)) instead")));
+    }
+
+    return this.pipe(op.apply(this, arguments));
+  };
+}
+
+SanityObservableMinimal.prototype.map = createDeprecatedMemberOp('map', map);
+SanityObservableMinimal.prototype.filter = createDeprecatedMemberOp('filter', filter);
+SanityObservableMinimal.prototype.reduce = createDeprecatedMemberOp('filter', reduce);
+module.exports = SanityObservableMinimal;
+
+/***/ }),
+
+/***/ "./node_modules/@sanity/client/node_modules/@sanity/observable/minimal.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@sanity/client/node_modules/@sanity/observable/minimal.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./lib/SanityObservableMinimal */ "./node_modules/@sanity/client/node_modules/@sanity/observable/lib/SanityObservableMinimal.js")
+
+
+/***/ }),
+
+/***/ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/filter.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@sanity/client/node_modules/@sanity/observable/operators/filter.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports.filter = __webpack_require__(/*! rxjs/internal/operators/filter */ "./node_modules/rxjs/internal/operators/filter.js").filter
+
+
+/***/ }),
+
+/***/ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/map.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@sanity/client/node_modules/@sanity/observable/operators/map.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports.map = __webpack_require__(/*! rxjs/internal/operators/map */ "./node_modules/rxjs/internal/operators/map.js").map
+
+
+/***/ }),
+
+/***/ "./node_modules/@sanity/client/node_modules/@sanity/observable/operators/reduce.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@sanity/client/node_modules/@sanity/observable/operators/reduce.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports.reduce = __webpack_require__(/*! rxjs/internal/operators/reduce */ "./node_modules/rxjs/internal/operators/reduce.js").reduce
 
 
 /***/ }),
@@ -3581,121 +3696,6 @@ module.exports = function generateHelpUrl(slug) {
 
 })));
 //# sourceMappingURL=image-url.umd.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/@sanity/observable/lib/SanityObservableMinimal.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/@sanity/observable/lib/SanityObservableMinimal.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _require = __webpack_require__(/*! rxjs/internal/Observable */ "./node_modules/rxjs/internal/Observable.js"),
-    Observable = _require.Observable;
-
-var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
-
-var _require2 = __webpack_require__(/*! ../operators/map */ "./node_modules/@sanity/observable/operators/map.js"),
-    map = _require2.map;
-
-var _require3 = __webpack_require__(/*! ../operators/filter */ "./node_modules/@sanity/observable/operators/filter.js"),
-    filter = _require3.filter;
-
-var _require4 = __webpack_require__(/*! ../operators/reduce */ "./node_modules/@sanity/observable/operators/reduce.js"),
-    reduce = _require4.reduce;
-/*
- A minimal rxjs based observable that align as closely as possible with the current es-observable spec,
- without the static factory methods
- */
-
-
-function SanityObservableMinimal() {
-  Observable.apply(this, arguments); // eslint-disable-line prefer-rest-params
-}
-
-SanityObservableMinimal.prototype = Object.create(assign(Object.create(null), Observable.prototype));
-Object.defineProperty(SanityObservableMinimal.prototype, 'constructor', {
-  value: SanityObservableMinimal,
-  enumerable: false,
-  writable: true,
-  configurable: true
-});
-
-SanityObservableMinimal.prototype.lift = function lift(operator) {
-  var observable = new SanityObservableMinimal();
-  observable.source = this;
-  observable.operator = operator;
-  return observable;
-};
-
-function createDeprecatedMemberOp(name, op) {
-  var hasWarned = false;
-  return function deprecatedOperator() {
-    if (!hasWarned) {
-      hasWarned = true;
-      console.warn(new Error("Calling observable.".concat(name, "(...) is deprecated. Please use observable.pipe(").concat(name, "(...)) instead")));
-    }
-
-    return this.pipe(op.apply(this, arguments));
-  };
-}
-
-SanityObservableMinimal.prototype.map = createDeprecatedMemberOp('map', map);
-SanityObservableMinimal.prototype.filter = createDeprecatedMemberOp('filter', filter);
-SanityObservableMinimal.prototype.reduce = createDeprecatedMemberOp('filter', reduce);
-module.exports = SanityObservableMinimal;
-
-/***/ }),
-
-/***/ "./node_modules/@sanity/observable/minimal.js":
-/*!****************************************************!*\
-  !*** ./node_modules/@sanity/observable/minimal.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./lib/SanityObservableMinimal */ "./node_modules/@sanity/observable/lib/SanityObservableMinimal.js")
-
-
-/***/ }),
-
-/***/ "./node_modules/@sanity/observable/operators/filter.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/@sanity/observable/operators/filter.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports.filter = __webpack_require__(/*! rxjs/internal/operators/filter */ "./node_modules/rxjs/internal/operators/filter.js").filter
-
-
-/***/ }),
-
-/***/ "./node_modules/@sanity/observable/operators/map.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/@sanity/observable/operators/map.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports.map = __webpack_require__(/*! rxjs/internal/operators/map */ "./node_modules/rxjs/internal/operators/map.js").map
-
-
-/***/ }),
-
-/***/ "./node_modules/@sanity/observable/operators/reduce.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/@sanity/observable/operators/reduce.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports.reduce = __webpack_require__(/*! rxjs/internal/operators/reduce */ "./node_modules/rxjs/internal/operators/reduce.js").reduce
 
 
 /***/ }),
@@ -5964,65 +5964,62 @@ function jsonp(url, opts, fn){
 
 // ===================================================================
 
-var construct = typeof Reflect !== 'undefined' ? Reflect.construct : undefined
-var defineProperty = Object.defineProperty
+var construct = typeof Reflect !== "undefined" ? Reflect.construct : undefined;
+var defineProperty = Object.defineProperty;
 
 // -------------------------------------------------------------------
 
-var captureStackTrace = Error.captureStackTrace
+var captureStackTrace = Error.captureStackTrace;
 if (captureStackTrace === undefined) {
-  captureStackTrace = function captureStackTrace (error) {
-    var container = new Error()
+  captureStackTrace = function captureStackTrace(error) {
+    var container = new Error();
 
-    defineProperty(error, 'stack', {
+    defineProperty(error, "stack", {
       configurable: true,
-      get: function getStack () {
-        var stack = container.stack
+      get: function getStack() {
+        var stack = container.stack;
 
         // Replace property with value for faster future accesses.
-        defineProperty(this, 'stack', {
+        defineProperty(this, "stack", {
           configurable: true,
           value: stack,
-          writable: true
-        })
+          writable: true,
+        });
 
-        return stack
+        return stack;
       },
-      set: function setStack (stack) {
-        defineProperty(error, 'stack', {
+      set: function setStack(stack) {
+        defineProperty(error, "stack", {
           configurable: true,
           value: stack,
-          writable: true
-        })
-      }
-    })
-  }
+          writable: true,
+        });
+      },
+    });
+  };
 }
 
 // -------------------------------------------------------------------
 
-function BaseError (message) {
+function BaseError(message) {
   if (message !== undefined) {
-    defineProperty(this, 'message', {
+    defineProperty(this, "message", {
       configurable: true,
       value: message,
-      writable: true
-    })
+      writable: true,
+    });
   }
 
-  var cname = this.constructor.name
-  if (
-    cname !== undefined &&
-    cname !== this.name
-  ) {
-    defineProperty(this, 'name', {
+  var cname = this.constructor.name;
+  if (cname !== undefined && cname !== this.name) {
+    defineProperty(this, "name", {
       configurable: true,
       value: cname,
-      writable: true
-    })
+      writable: true,
+    });
   }
 
-  captureStackTrace(this, this.constructor)
+  captureStackTrace(this, this.constructor);
 }
 
 BaseError.prototype = Object.create(Error.prototype, {
@@ -6030,65 +6027,72 @@ BaseError.prototype = Object.create(Error.prototype, {
   constructor: {
     configurable: true,
     value: BaseError,
-    writable: true
-  }
-})
+    writable: true,
+  },
+});
 
 // -------------------------------------------------------------------
 
 // Sets the name of a function if possible (depends of the JS engine).
-var setFunctionName = (function () {
-  function setFunctionName (fn, name) {
-    return defineProperty(fn, 'name', {
+var setFunctionName = (function() {
+  function setFunctionName(fn, name) {
+    return defineProperty(fn, "name", {
       configurable: true,
-      value: name
-    })
+      value: name,
+    });
   }
   try {
-    var f = function () {}
-    setFunctionName(f, 'foo')
-    if (f.name === 'foo') {
-      return setFunctionName
+    var f = function() {};
+    setFunctionName(f, "foo");
+    if (f.name === "foo") {
+      return setFunctionName;
     }
   } catch (_) {}
-})()
+})();
 
 // -------------------------------------------------------------------
 
-function makeError (constructor, super_) {
+function makeError(constructor, super_) {
   if (super_ == null || super_ === Error) {
-    super_ = BaseError
-  } else if (typeof super_ !== 'function') {
-    throw new TypeError('super_ should be a function')
+    super_ = BaseError;
+  } else if (typeof super_ !== "function") {
+    throw new TypeError("super_ should be a function");
   }
 
-  var name
-  if (typeof constructor === 'string') {
-    name = constructor
-    constructor = construct !== undefined
-      ? function () { return construct(super_, arguments, this.constructor) }
-      : function () { super_.apply(this, arguments) }
+  var name;
+  if (typeof constructor === "string") {
+    name = constructor;
+    constructor =
+      construct !== undefined
+        ? function() {
+            return construct(super_, arguments, this.constructor);
+          }
+        : function() {
+            super_.apply(this, arguments);
+          };
 
     // If the name can be set, do it once and for all.
     if (setFunctionName !== undefined) {
-      setFunctionName(constructor, name)
-      name = undefined
+      setFunctionName(constructor, name);
+      name = undefined;
     }
-  } else if (typeof constructor !== 'function') {
-    throw new TypeError('constructor should be either a string or a function')
+  } else if (typeof constructor !== "function") {
+    throw new TypeError("constructor should be either a string or a function");
   }
 
   // Also register the super constructor also as `constructor.super_` just
   // like Node's `util.inherits()`.
-  constructor.super_ = constructor['super'] = super_
+  //
+  // eslint-disable-next-line dot-notation
+  constructor.super_ = constructor["super"] = super_;
 
   var properties = {
     constructor: {
       configurable: true,
       value: constructor,
-      writable: true
-    }
-  }
+      writable: true,
+    },
+  };
 
   // If the name could not be set on the constructor, set it on the
   // prototype.
@@ -6096,15 +6100,15 @@ function makeError (constructor, super_) {
     properties.name = {
       configurable: true,
       value: name,
-      writable: true
-    }
+      writable: true,
+    };
   }
-  constructor.prototype = Object.create(super_.prototype, properties)
+  constructor.prototype = Object.create(super_.prototype, properties);
 
-  return constructor
+  return constructor;
 }
-exports = module.exports = makeError
-exports.BaseError = BaseError
+exports = module.exports = makeError;
+exports.BaseError = BaseError;
 
 
 /***/ }),
@@ -6857,7 +6861,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 
 
-var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/prop-types/node_modules/react-is/index.js");
+var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
 
 var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
@@ -7458,7 +7462,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
  */
 
 if (true) {
-  var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/prop-types/node_modules/react-is/index.js");
+  var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
@@ -7477,271 +7481,6 @@ if (true) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
-
-/***/ }),
-
-/***/ "./node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/** @license React v16.12.0
- * react-is.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-
-
-
-if (true) {
-  (function() {
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
-// nor polyfill, then a plain number is used for performance.
-var hasSymbol = typeof Symbol === 'function' && Symbol.for;
-var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
-var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
-var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
-var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
-var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
-var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
-var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
-// (unstable) APIs that have been removed. Can we remove the symbols?
-
-var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
-var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
-var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
-var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
-var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
-var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
-var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
-var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
-var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
-var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
-
-function isValidElementType(type) {
-  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
-  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE);
-}
-
-/**
- * Forked from fbjs/warning:
- * https://github.com/facebook/fbjs/blob/e66ba20ad5be433eb54423f2b097d829324d9de6/packages/fbjs/src/__forks__/warning.js
- *
- * Only change is we use console.warn instead of console.error,
- * and do nothing when 'console' is not supported.
- * This really simplifies the code.
- * ---
- * Similar to invariant but only logs a warning if the condition is not met.
- * This can be used to log issues in development environments in critical
- * paths. Removing the logging code for production environments will keep the
- * same logic and follow the same code paths.
- */
-var lowPriorityWarningWithoutStack = function () {};
-
-{
-  var printWarning = function (format) {
-    for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-      args[_key - 1] = arguments[_key];
-    }
-
-    var argIndex = 0;
-    var message = 'Warning: ' + format.replace(/%s/g, function () {
-      return args[argIndex++];
-    });
-
-    if (typeof console !== 'undefined') {
-      console.warn(message);
-    }
-
-    try {
-      // --- Welcome to debugging React ---
-      // This error was thrown as a convenience so that you can use this stack
-      // to find the callsite that caused this warning to fire.
-      throw new Error(message);
-    } catch (x) {}
-  };
-
-  lowPriorityWarningWithoutStack = function (condition, format) {
-    if (format === undefined) {
-      throw new Error('`lowPriorityWarningWithoutStack(condition, format, ...args)` requires a warning ' + 'message argument');
-    }
-
-    if (!condition) {
-      for (var _len2 = arguments.length, args = new Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
-        args[_key2 - 2] = arguments[_key2];
-      }
-
-      printWarning.apply(void 0, [format].concat(args));
-    }
-  };
-}
-
-var lowPriorityWarningWithoutStack$1 = lowPriorityWarningWithoutStack;
-
-function typeOf(object) {
-  if (typeof object === 'object' && object !== null) {
-    var $$typeof = object.$$typeof;
-
-    switch ($$typeof) {
-      case REACT_ELEMENT_TYPE:
-        var type = object.type;
-
-        switch (type) {
-          case REACT_ASYNC_MODE_TYPE:
-          case REACT_CONCURRENT_MODE_TYPE:
-          case REACT_FRAGMENT_TYPE:
-          case REACT_PROFILER_TYPE:
-          case REACT_STRICT_MODE_TYPE:
-          case REACT_SUSPENSE_TYPE:
-            return type;
-
-          default:
-            var $$typeofType = type && type.$$typeof;
-
-            switch ($$typeofType) {
-              case REACT_CONTEXT_TYPE:
-              case REACT_FORWARD_REF_TYPE:
-              case REACT_LAZY_TYPE:
-              case REACT_MEMO_TYPE:
-              case REACT_PROVIDER_TYPE:
-                return $$typeofType;
-
-              default:
-                return $$typeof;
-            }
-
-        }
-
-      case REACT_PORTAL_TYPE:
-        return $$typeof;
-    }
-  }
-
-  return undefined;
-} // AsyncMode is deprecated along with isAsyncMode
-
-var AsyncMode = REACT_ASYNC_MODE_TYPE;
-var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
-var ContextConsumer = REACT_CONTEXT_TYPE;
-var ContextProvider = REACT_PROVIDER_TYPE;
-var Element = REACT_ELEMENT_TYPE;
-var ForwardRef = REACT_FORWARD_REF_TYPE;
-var Fragment = REACT_FRAGMENT_TYPE;
-var Lazy = REACT_LAZY_TYPE;
-var Memo = REACT_MEMO_TYPE;
-var Portal = REACT_PORTAL_TYPE;
-var Profiler = REACT_PROFILER_TYPE;
-var StrictMode = REACT_STRICT_MODE_TYPE;
-var Suspense = REACT_SUSPENSE_TYPE;
-var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
-
-function isAsyncMode(object) {
-  {
-    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-      hasWarnedAboutDeprecatedIsAsyncMode = true;
-      lowPriorityWarningWithoutStack$1(false, 'The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
-    }
-  }
-
-  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
-}
-function isConcurrentMode(object) {
-  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
-}
-function isContextConsumer(object) {
-  return typeOf(object) === REACT_CONTEXT_TYPE;
-}
-function isContextProvider(object) {
-  return typeOf(object) === REACT_PROVIDER_TYPE;
-}
-function isElement(object) {
-  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-}
-function isForwardRef(object) {
-  return typeOf(object) === REACT_FORWARD_REF_TYPE;
-}
-function isFragment(object) {
-  return typeOf(object) === REACT_FRAGMENT_TYPE;
-}
-function isLazy(object) {
-  return typeOf(object) === REACT_LAZY_TYPE;
-}
-function isMemo(object) {
-  return typeOf(object) === REACT_MEMO_TYPE;
-}
-function isPortal(object) {
-  return typeOf(object) === REACT_PORTAL_TYPE;
-}
-function isProfiler(object) {
-  return typeOf(object) === REACT_PROFILER_TYPE;
-}
-function isStrictMode(object) {
-  return typeOf(object) === REACT_STRICT_MODE_TYPE;
-}
-function isSuspense(object) {
-  return typeOf(object) === REACT_SUSPENSE_TYPE;
-}
-
-exports.typeOf = typeOf;
-exports.AsyncMode = AsyncMode;
-exports.ConcurrentMode = ConcurrentMode;
-exports.ContextConsumer = ContextConsumer;
-exports.ContextProvider = ContextProvider;
-exports.Element = Element;
-exports.ForwardRef = ForwardRef;
-exports.Fragment = Fragment;
-exports.Lazy = Lazy;
-exports.Memo = Memo;
-exports.Portal = Portal;
-exports.Profiler = Profiler;
-exports.StrictMode = StrictMode;
-exports.Suspense = Suspense;
-exports.isValidElementType = isValidElementType;
-exports.isAsyncMode = isAsyncMode;
-exports.isConcurrentMode = isConcurrentMode;
-exports.isContextConsumer = isContextConsumer;
-exports.isContextProvider = isContextProvider;
-exports.isElement = isElement;
-exports.isForwardRef = isForwardRef;
-exports.isFragment = isFragment;
-exports.isLazy = isLazy;
-exports.isMemo = isMemo;
-exports.isPortal = isPortal;
-exports.isProfiler = isProfiler;
-exports.isStrictMode = isStrictMode;
-exports.isSuspense = isSuspense;
-  })();
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/prop-types/node_modules/react-is/index.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/prop-types/node_modules/react-is/index.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js");
-}
-
 
 /***/ }),
 
@@ -8080,6 +7819,216 @@ function querystringify(obj, prefix) {
 //
 exports.stringify = querystringify;
 exports.parse = querystring;
+
+
+/***/ }),
+
+/***/ "./node_modules/react-is/cjs/react-is.development.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+// nor polyfill, then a plain number is used for performance.
+var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+// (unstable) APIs that have been removed. Can we remove the symbols?
+
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
+var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
+var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
+var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
+
+function isValidElementType(type) {
+  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+}
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
+          case REACT_CONCURRENT_MODE_TYPE:
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_LAZY_TYPE:
+              case REACT_MEMO_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+} // AsyncMode is deprecated along with isAsyncMode
+
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
+var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+    }
+  }
+
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+}
+function isConcurrentMode(object) {
+  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+
+exports.AsyncMode = AsyncMode;
+exports.ConcurrentMode = ConcurrentMode;
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+exports.isValidElementType = isValidElementType;
+exports.typeOf = typeOf;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-is/index.js":
+/*!****************************************!*\
+  !*** ./node_modules/react-is/index.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
+}
 
 
 /***/ }),
@@ -8487,7 +8436,7 @@ var runtime = (function (exports) {
     return { __await: arg };
   };
 
-  function AsyncIterator(generator) {
+  function AsyncIterator(generator, PromiseImpl) {
     function invoke(method, arg, resolve, reject) {
       var record = tryCatch(generator[method], generator, arg);
       if (record.type === "throw") {
@@ -8498,14 +8447,14 @@ var runtime = (function (exports) {
         if (value &&
             typeof value === "object" &&
             hasOwn.call(value, "__await")) {
-          return Promise.resolve(value.__await).then(function(value) {
+          return PromiseImpl.resolve(value.__await).then(function(value) {
             invoke("next", value, resolve, reject);
           }, function(err) {
             invoke("throw", err, resolve, reject);
           });
         }
 
-        return Promise.resolve(value).then(function(unwrapped) {
+        return PromiseImpl.resolve(value).then(function(unwrapped) {
           // When a yielded Promise is resolved, its final value becomes
           // the .value of the Promise<{value,done}> result for the
           // current iteration.
@@ -8523,7 +8472,7 @@ var runtime = (function (exports) {
 
     function enqueue(method, arg) {
       function callInvokeWithMethodAndArg() {
-        return new Promise(function(resolve, reject) {
+        return new PromiseImpl(function(resolve, reject) {
           invoke(method, arg, resolve, reject);
         });
       }
@@ -8563,9 +8512,12 @@ var runtime = (function (exports) {
   // Note that simple async functions are implemented on top of
   // AsyncIterator objects; they just return a Promise for the value of
   // the final result produced by the iterator.
-  exports.async = function(innerFn, outerFn, self, tryLocsList) {
+  exports.async = function(innerFn, outerFn, self, tryLocsList, PromiseImpl) {
+    if (PromiseImpl === void 0) PromiseImpl = Promise;
+
     var iter = new AsyncIterator(
-      wrap(innerFn, outerFn, self, tryLocsList)
+      wrap(innerFn, outerFn, self, tryLocsList),
+      PromiseImpl
     );
 
     return exports.isGeneratorFunction(outerFn)
