@@ -940,7 +940,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Sites\\idlehoursco\\frontend\\frontend_V1\\likeminds\\web\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Sites\\idlehoursco\\likeminds\\web\\.next");
       return error;
     }
   };

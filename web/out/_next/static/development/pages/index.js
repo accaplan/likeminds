@@ -18,7 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sanity_image_url__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sanity_image_url__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _ItemsGrid__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ItemsGrid */ "./components/ItemsGrid.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Sites\\idlehoursco\\frontend\\frontend_V1\\likeminds\\web\\components\\Event.js";
+    _jsxFileName = "C:\\Sites\\idlehoursco\\likeminds\\web\\components\\Event.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -310,7 +310,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Logo */ "./components/Logo.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Sites\\idlehoursco\\frontend\\frontend_V1\\likeminds\\web\\components\\Footer.js";
+    _jsxFileName = "C:\\Sites\\idlehoursco\\likeminds\\web\\components\\Footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -362,7 +362,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_mailchimp_form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-mailchimp-form */ "./node_modules/react-mailchimp-form/dist/index.js");
 /* harmony import */ var react_mailchimp_form__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_mailchimp_form__WEBPACK_IMPORTED_MODULE_2__);
 var _this = undefined,
-    _jsxFileName = "C:\\Sites\\idlehoursco\\frontend\\frontend_V1\\likeminds\\web\\components\\Header.js";
+    _jsxFileName = "C:\\Sites\\idlehoursco\\likeminds\\web\\components\\Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -577,7 +577,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sanity_image_url__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @sanity/image-url */ "./node_modules/@sanity/image-url/lib/browser/image-url.umd.js");
 /* harmony import */ var _sanity_image_url__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sanity_image_url__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "C:\\Sites\\idlehoursco\\frontend\\frontend_V1\\likeminds\\web\\components\\ItemsGrid.js";
+    _jsxFileName = "C:\\Sites\\idlehoursco\\likeminds\\web\\components\\ItemsGrid.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -740,7 +740,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_style_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../public/style.scss */ "./public/style.scss");
 /* harmony import */ var _public_style_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_style_scss__WEBPACK_IMPORTED_MODULE_5__);
 var _this = undefined,
-    _jsxFileName = "C:\\Sites\\idlehoursco\\frontend\\frontend_V1\\likeminds\\web\\components\\Layout.js";
+    _jsxFileName = "C:\\Sites\\idlehoursco\\likeminds\\web\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -830,7 +830,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "C:\\Sites\\idlehoursco\\frontend\\frontend_V1\\likeminds\\web\\components\\Logo.js";
+    _jsxFileName = "C:\\Sites\\idlehoursco\\likeminds\\web\\components\\Logo.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -841,6 +841,7 @@ var Logo = function Logo(props) {
     className: props.classes,
     xmlns: "http://www.w3.org/2000/svg",
     viewBox: "0 0 1500 100",
+    fill: "#244093",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -854,7 +855,7 @@ var Logo = function Logo(props) {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
-      columnNumber: 92
+      columnNumber: 107
     }
   }, __jsx("g", {
     id: "Layer_1-2",
@@ -863,7 +864,7 @@ var Logo = function Logo(props) {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
-      columnNumber: 128
+      columnNumber: 143
     }
   }, __jsx("path", {
     d: "M20.74,23.54a38.2,38.2,0,0,0,2.12-13.4c0-3.63-1.66-8.78-6.05-8.78-3.18,0-5.15,3.41-6.36,5.76C8.48,11,7.19,13.25,6.74,14c-.76,1.37-3.56,4.62-5.3,4.62C.61,18.62,0,17.86,0,15.9c0-3.11,1.36-6,1.36-11-.07-1.29-1-2.35-1-3.63,0-.61.3-.84,1-1C5.22.23,8.86.23,12.57.23,19.91.23,27.1.3,34.9.3H53.06c3.41,0,4.17,4.62,4.17,9,0,3.1-.38,4.16-.38,6.81a17.71,17.71,0,0,0,.53,3.71.21.21,0,0,1-.23.23c-4.61,0-6.51-7.49-8.48-10.29C46,6.13,41.86,2.35,37,2.12A23.19,23.19,0,0,1,40.2,14.38a77.44,77.44,0,0,1-.91,10.83c-.46,2.87-1.21,5.37-1.21,8.32,0,3.87,1.13,7.65,2.19,11.21A21.07,21.07,0,0,1,40.73,49a6.66,6.66,0,0,1-6.36,6.28H21.42c-5.6,0-7.26-4.24-7.26-9.31C14.16,38.15,17.94,31,20.74,23.54Z",
@@ -6184,10 +6185,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Cfrontend%5Cfrontend_V1%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true!./":
-/*!***************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Cfrontend%5Cfrontend_V1%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
-  \***************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true!./":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
+  \**************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10954,7 +10955,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "C:\\Sites\\idlehoursco\\frontend\\frontend_V1\\likeminds\\web\\pages\\index.js";
+    _jsxFileName = "C:\\Sites\\idlehoursco\\likeminds\\web\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
@@ -11079,13 +11080,13 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 1:
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Cfrontend%5Cfrontend_V1%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
-  \*******************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
+  \******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Cfrontend%5Cfrontend_V1%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Cfrontend%5Cfrontend_V1%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CSites%5Cidlehoursco%5Clikeminds%5Cweb%5Cpages%5Cindex.js&hotRouterUpdates=true!./");
 
 
 /***/ }),
