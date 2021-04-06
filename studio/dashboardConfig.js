@@ -36,10 +36,10 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'https://github.com/office-romance/likeminds',
+            value: 'https://github.com/accaplan/likeminds',
             category: 'Code'
           },
-          {title: 'Frontend', value: 'https://idlehours.co', category: 'apps'}
+          {title: 'Frontend', value: 'https://dispatch.idlehours.co', category: 'apps'}
         ]
       }
     },

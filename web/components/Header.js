@@ -29,8 +29,8 @@ const Header = () => {
       </div>
 
       <div className='header__info'>
-        <p><Logo classes='no-text' /> is a company built around the principles of freetime. The art of doing nothing and the delight of boredom.</p>
-        <p><Logo classes='no-text' /> calls for <span className='animate'>Group Connectivity.</span> <button onClick={showSignUp} type='button'>Sign Up</button> for announcements.</p>
+        <p><Logo classes='no-text' /> is an internet garden for all things Dawdlism.</p>
+        <p><Logo classes='no-text' /> exists to connect <span className='animate'>Dawdlists</span> <button onClick={showSignUp} type='button'>Sign Up</button> for announcements.</p>
         <div className={`header__signup js-signup ${modifier}`}>
           <label htmlFor='headerSignup'>STAY TUNED</label>
           <Mailchimp
