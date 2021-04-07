@@ -441,7 +441,7 @@ var Header = function Header() {
       lineNumber: 32,
       columnNumber: 12
     }
-  }), " is a company built around the principles of freetime. The art of doing nothing and the delight of boredom."), __jsx("p", {
+  }), " is an internet garden for all things Dawdlism."), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -456,22 +456,22 @@ var Header = function Header() {
       lineNumber: 33,
       columnNumber: 12
     }
-  }), " calls for ", __jsx("span", {
+  }), " exists to connect ", __jsx("span", {
     className: "animate",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 49
+      columnNumber: 57
     }
-  }, "Group Connectivity."), " ", __jsx("button", {
+  }, "Dawdlists"), " ", __jsx("button", {
     onClick: showSignUp,
     type: "button",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 102
+      columnNumber: 100
     }
   }, "Sign Up"), " for announcements."), __jsx("div", {
     className: "header__signup js-signup ".concat(modifier),
