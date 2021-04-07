@@ -58,27 +58,27 @@ const Event = (props) => {
   const currentEventItems = (
     <div className='currentContainer'>
       <ItemsGrid
-        title="Speakers"
+        title="Featured"
         logo={speakerslogo}
         items={speakers}
         />
-      {/* <ItemsGrid
-        title="Music"
+       {/*<ItemsGrid
+        title="Radio"
         logo={musiclogo}
         items={music}
       />
       <ItemsGrid
-        title="Workshops"
+        title="Connect"
         logo={workshopslogo}
         items={workshops}
         />
       <ItemsGrid
-        title="Artists"
+        title="Content"
         logo={artistslogo}
         items={artists}
-      />  */}
+      /> */ }
       <ItemsGrid
-        title="Information"
+        title="Resources"
         logo={informationlogo}
         items={information}
       /> 

@@ -106,7 +106,7 @@ var Event = function Event(props) {
       columnNumber: 5
     }
   }, __jsx(_ItemsGrid__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    title: "Speakers",
+    title: "Featured",
     logo: speakerslogo,
     items: speakers,
     __self: _this,
@@ -116,7 +116,7 @@ var Event = function Event(props) {
       columnNumber: 7
     }
   }), __jsx(_ItemsGrid__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    title: "Information",
+    title: "Resources",
     logo: informationlogo,
     items: information,
     __self: _this,
@@ -340,7 +340,7 @@ var Footer = function Footer() {
       lineNumber: 7,
       columnNumber: 10
     }
-  }), " 2020 \xA9 IDLE HOURS Email us at freetime@idlehours.co."));
+  }), " 2020 \xA9 IDLE HOURS Email us at info@idlehours.co."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
