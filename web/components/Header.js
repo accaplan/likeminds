@@ -58,7 +58,7 @@ const Header = () => {
       </div>
 
       <div className='header__button'>
-        <a href='https://idlehours.substack.com' target='_blank'>Archive</a>
+        <a href='https://www.idlehours.co' target='_blank'>Back to shop</a>
       </div>
 
       <nav className='header__socials'>
