@@ -34,7 +34,7 @@ const Header = () => {
         <div className={`header__signup js-signup ${modifier}`}>
           <label htmlFor='headerSignup'>STAY TUNED</label>
           <Mailchimp
-            action='https://camp.us19.list-manage.com/subscribe/post?u=358143694606dde15fb491f0b&amp;id=c06b53b3db'
+            action='https://idlehours.us6.list-manage.com/subscribe/post?u=db25ce5cf2d3509d4c7520820&amp;id=41a2829d83'
             fields={[
               {
                 name: 'EMAIL',
