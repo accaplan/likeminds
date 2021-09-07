@@ -29,7 +29,7 @@ const Header = () => {
       </div>
 
       <div className='header__info'>
-        <p><Logo classes='no-text' /> is an internet garden for all things Dawdlism.</p>
+        <p><Logo classes='no-text' /> is a story of the building of the Idle Hours Company.</p>
         <p><Logo classes='no-text' /> exists to connect <span className='animate'>Dawdlists</span> <button onClick={showSignUp} type='button'>Sign Up</button> for announcements.</p>
         <div className={`header__signup js-signup ${modifier}`}>
           <label htmlFor='headerSignup'>STAY TUNED</label>
@@ -62,7 +62,7 @@ const Header = () => {
       </div>
 
       <nav className='header__socials'>
-        <a href='https://instagram.com/idlehoursco' target='_blank'>instagram</a>
+        <a href='https://instagram.com/idlehoursco' target='_blank'>Instagram</a>
         <a href='mailto:info@idlehours.co'>email</a>
       </nav>
     </div >
