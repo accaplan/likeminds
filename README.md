@@ -1,8 +1,6 @@
 # Single page for all things Dawdlism
 
-_SEO friendly page builder in React.js. Heroes, sign-up forms and calls to action._
-
-Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-nextjs-landing-pages).
+The story so far... Happenings of Idle Hours Company
 
 ## What you have
 
